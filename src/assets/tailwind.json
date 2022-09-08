@@ -1,0 +1,13 @@
+{
+  "framework": "tailwind",
+  "categories": ["Navbars", "Cards"],
+  "styles": {
+    "navbars": {
+      "1": "<h1 class=\"yes\">Hello Test</h1>"
+    },
+    "cards": {
+      "1": "<h2>Test Cards</h2>",
+      "2": "<h2>Test Cards 2</h2>"
+    }
+  }
+}

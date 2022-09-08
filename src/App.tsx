@@ -1,11 +1,17 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Navigation from "./routes/navigation/navigation.component";
+import Tailwind from "./routes/tailwind/tailwind.component";
+import Home from "./routes/home/home.component";
 
 const App = () => {
   return (
-    <div>
-      <h1>Test React</h1>
-      <h2>Test 1</h2>
-    </div>
+    <Routes>
+      <Route path="/" element={<Navigation />}>
+        <Route index element={<Home />}></Route>
+        <Route path="/tailwind" element={<Tailwind />}></Route>
+      </Route>
+    </Routes>
   );
 };
 
