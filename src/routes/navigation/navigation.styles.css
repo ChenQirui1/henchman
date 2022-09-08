@@ -1,4 +1,7 @@
 .nav-link {
   text-decoration: none;
-  color: black;
+}
+
+.henchman {
+  font-family: "Arvo", serif;
 }
